@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Denchi | 传智 | 伝智</title>
+    <title>Denchi Saihen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="税务咨询,商务咨询,传智咨询,传智咨询有限公司,Denchi,Denchi Advisory,咨询,Advisory">
     <meta name="description" content="传智咨询有限公司（Denchi Advisory Co., Ltd.）（“传智”）是中国税务及商务咨询界居于领先地位的综合性咨询公司之一，为中外客户就各类境内及跨国交易提供全方位的税务及商务解决方案。">
+    
 
     <link rel="shortcut icon" type="image/png" href="/static/img/upload/icon.png" />
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -23,7 +24,7 @@
         <div id="header" class="clearfix">
             <div id="company-name" class="pull-left">
                  <a href="/jp/"> <img src="/static/img/logo.png" alt="Denchi"></img></a><br/>
-                 <a href="/jp/">伝智コンサルティング有限公司 </a>
+                 <a href="/jp/">伝智トレーニング </a>
             </div>
             <p id="language" class="pull-right">
                 <span class="badge "><a href="/cn/">中文</a></span>
@@ -56,8 +57,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">サービス<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/jp/service/establish">企業再編支援サービス</a></li>
-                                <li><a href="http://www.learn.denchi.cn/jp">伝智トレーニング</a></li>
+                                <li><a href="http://saihen.denchi.cn/jp">企業再編</a></li>
+                                <li><a href="http://learn.denchi.cn/jp">伝智トレーニング</a></li>
                                 <li><a href="/jp/service/price">移転価格サービス</a></li>
                                 <li><a href="/jp/service/tax">税務及びビジネス·コンサルティングサービス</a></li>
                             </ul>
@@ -103,7 +104,7 @@
                 <ul class="nav nav-list">
                     <li class="nav-header">
                         <a href="#">サービス</a>
-                    </li><li class="divider"></li><li><a href="/jp/service/establish">企業再編支援サービス</a></li><li><a href="http://www.learn.denchi.cn/jp">伝智トレーニング</a></li><li><a href="/jp/service/price">移転価格サービス</a></li><li><a href="/jp/service/tax">税務及びビジネス·コンサルティングサービス</a></li>
+                    </li><li class="divider"></li><li><a href="http://saihen.denchi.cn/jp">企業再編</a></li><li><a href="http://learn.denchi.cn/jp">伝智トレーニング</a></li><li><a href="/jp/service/price">移転価格サービス</a></li><li><a href="/jp/service/tax">税務及びビジネス·コンサルティングサービス</a></li>
                 </ul>
             </div>
         </div><!--/span-->
@@ -132,6 +133,23 @@
 <p>「備えあれば憂いなし」、伝智の支援で移転価格政策について、一国或いは多国の税務機関と合意することで、二重課税リスクを回避でき、移転価格税務の事前管理が可能となります。ここ数年来、事前確認の申請?協議などの分野において中税諮詢グループは四大会計事務所を上回る実績を残しています。</p>
 <p>伝智と中税諮詢グループの専門家は、長年移転価格業務に携わり、豊富な経験を有しています。特に、中税諮詢グループのシニアパートナーである王裕康は、中国国家国際税務総局の国際税務司副司長を担任し、主に国際税務協力、租税条約、情報交換、国際租税回避防止及び事前確認などを管理しました。具体的には、上述の分野に関する法規政策の検討や制定の指導、国際租税回避防止の調査や調査後の調整、中日、中米、中韓などの二国間事前確認の協議?締結事業に参与し、大きく貢献しました。</p>
             </div>
+
+            <hr />
+            <div class="row-fluid">
+                <div class="span4"><a href="http://learn.denchi.cn/jp" class="pull-left">
+                        <span class="label"><i class="icon-arrow-left icon-white"></i> 伝智トレーニング</span>
+                    </a>
+                </div>
+                <div class="span4 text-center">
+                    <a href="/jp/">
+                        <span class="label"><i class="icon-arrow-up icon-white"></i> top</span>
+                    </a>
+                </div>
+                <div class="span4"><a href="/jp/service/tax" class="pull-right">
+                        <span class="label">税務及びビジネス·コンサルティングサービス <i class="icon-arrow-right icon-white"></i></span>
+                    </a>
+                </div>
+            </div>
         </div><!--/span-->
     </div>
 
@@ -158,9 +176,7 @@
                 </div>
         </div>
         <div id="footer" class="clearfix">
-            &copy; 伝智コンサルティング有限公司 2013
-                <a href="/jp/law/exemption/">免責事項</a>
-                <a href="/jp/law/about/">本サイトに関して</a></div>
+            &copy; 伝智コンサルティング有限公司 2013</div>
 
     </div>
 
@@ -168,20 +184,23 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-    $('.dropdown-toggle').click(function(e) {
-        e.preventDefault();
-        setTimeout($.proxy(function() {
-            if ('ontouchstart' in document.documentElement) {
-                $(this).siblings('.dropdown-backdrop').off().remove();
-            }
-        }, this), 0);
-    });
+        $('.dropdown-toggle').click(function(e) {
+            e.preventDefault();
+            setTimeout($.proxy(function() {
+                if ('ontouchstart' in document.documentElement) {
+                    $(this).siblings('.dropdown-backdrop').off().remove();
+                }
+            }, this), 0);
+        });
     </script>
-    
     <script type="text/javascript">
         $(document.links).filter(function() {
             return this.hostname != window.location.hostname;
         }).attr('target', '_blank');
+    </script>
+    
+    <script type="text/javascript">
+        $('table').addClass('table table-bordered table-hover');
     </script>
     
   </body>
